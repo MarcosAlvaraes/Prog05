@@ -18,7 +18,9 @@
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        'TextBox1.Text = Randomize()
+        Randomize()
+        TextBox1.Text = Int((100 - 0 + 1) * Rnd() + 0)
+
 
     End Sub
 
